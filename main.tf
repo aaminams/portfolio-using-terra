@@ -115,4 +115,3 @@ output "instance_public_ip" {
   value       = aws_instance.web.public_ip
   description = "Website is running on this address"
 }
-}
